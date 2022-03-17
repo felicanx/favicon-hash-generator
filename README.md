@@ -15,3 +15,7 @@ you can change the code to just add list of domains from a file in that way you 
 
 ## WHAT TO DO AFTER GETTING HASH 
 you can search that hash like this  [http.favicon.hash:"hash-value"] in shodan to get IP addresses
+
+
+
+# INCASE OF ANY ERROR TRY UPDATING PYTHON AND PIP TO LATEST VERSION
