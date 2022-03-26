@@ -9,7 +9,7 @@ and then run it it will give you list of favicon hashes which can be used in sho
                             
  1. git clone https://github.com/felicanx/favicon-hash-generator.git
  2. chmod +x fav.py 
- 3. pip install " the libraies "
+ 3. pip install -r requirements.txt
  4. run this python3 fav.py filename.txt
 
 you can change the code and update it as per your need and enjoy automation
