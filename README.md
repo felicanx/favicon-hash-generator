@@ -1,15 +1,16 @@
 # favicon-hash-generator
-This tools takes favicon url as input and convert its hash value which can be further used in shodan to find IP addresses
+To use this tool first make a list of favicon urls then save it in a txt file and then enter that txt file in the python code in place of [ "filename.txt" ]
+and then run it it will give you list of favicon hashes which can be used in shodan
 
 # TO use this tool Follow the steps
 -->just copy the code and run through python editor(like pycharm or sublime ) directly
 
                             OR
                             
-{ step 1. git clone https://github.com/felicanx/favicon-hash-generator.git } 
-{ step 2. chmod +x fav.py }
-{ step 3. pip install " the libraies " }
-{ step 4. change the domain whenever you need in the code } 
+ 1. git clone https://github.com/felicanx/favicon-hash-generator.git
+ 2. chmod +x fav.py 
+ 3. pip install " the libraies "
+ 4. entern the favicon urls txt file name in the positon of " filename.txt "
 
 you can change the code to just add list of domains from a file in that way you don't need to enter domains everytime you need
 
