@@ -1,12 +1,14 @@
-#install thse libraries using pip command to successfully run this tool and have fun
-##felican AKA Rajnish kumar
-
 import mmh3
 import requests
 import codecs
+import argparse
 
-file0=open('filename.txt','r')
-data=file0.read()
+parser = argparse.ArgumentParser(description="favicon-hash-generator is a automation tool for hash generation of favicons you can use this as TYPE as  [ python3 fav.py filename.txt ]")
+parser.add_argument('filename', type=argparse.FileType('r'))
+args = parser.parse_args()
+
+
+data=args.filename.read()
 urls=data.splitlines()
 file1=open('favicon_hash.txt','a')
 
@@ -17,5 +19,6 @@ for url in urls:
     hash=str(hash)
     file1.writelines(hash+"\n")
 
-file0.close()
-file1.close()
+
+
+
